@@ -1,0 +1,203 @@
+#star {
+  color: red;
+}
+
+input[type="number"] {
+  width: 120px;
+}
+
+.pizza-sizes {
+  text-align: center;
+}
+.pizza-sizes > div {
+  margin: 10px 0;
+}
+
+.s-pizza {
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50px;
+}
+
+.s-firstpic {
+  background-image: url("/images/olivepizza.jpeg");
+  background-size: 140px;
+}
+.s-secondpic {
+  background-image: url("/images/chickenpizza.jpeg");
+  background-size: 110px;
+}
+.s-thirdpic {
+  background-image: url("/images/salami.jpeg");
+  background-size: 170px;
+}
+.s-fourthpic {
+  background-image: url("/images/noimg.jpg");
+  background-size: 100px;
+}
+
+.row {
+  margin-inline-end: auto;
+}
+
+body > table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+table.list {
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid #d9534f;
+  border-radius: 5px;
+  text-align: left;
+  padding: 8px;
+}
+
+table.list thead > tr {
+  background-color: #eb6f6f;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 30%;
+  background-color: #ddd;
+  color: #000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form div.form-action-buttons {
+  text-align: right;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ee;
+  margin-right: 4px;
+}
+
+label.validation-error {
+  color: red;
+  margin-left: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.list {
+  margin-bottom: 550px;
+}
+
+#h3name,
+#h3price {
+  margin: 0;
+  margin-top: 10px;
+}
+
+label,
+input[type="checkbox"],
+#toppings {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+label.toppings {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 10px;
+}
+table thead {
+  background-color: #000;
+  color: black;
+}
+table th:hover {
+  cursor: pointer;
+}
+
+.headerSortUp {
+  background: url("data:image/gif;base64, R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==")
+    no-repeat 99%;
+}
+
+input,
+label,
+.inline {
+  display: inline-block;
+}
+
+form {
+  max-width: 250px;
+  min-width: 250px;
+  margin-bottom: 350px;
+  position: relative;
+}
+
+.main {
+  margin-bottom: 350px;
+}
+
+#submit {
+  color: white;
+  background-color: #5cb85c;
+  margin-right: 400px;
+  margin-top: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+
+#submit:hover {
+  background-color: green;
+}
+
+.delete {
+  border: 1px solid#d9534f;
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 20px;
+  background-color: #d9534f;
+  color: white;
+  text-decoration: none;
+}
+
+.delete:hover {
+  border: 1px solid #cd1111;
+  background-color: #cd1111;
+}
+
+body,
+html {
+  background-image: url("/images/backpizza.jpeg");
+  background-size: 1100px;
+}
